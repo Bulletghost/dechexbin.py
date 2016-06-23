@@ -1,1 +1,9 @@
-# dechexbin.py
+
+for i in range (0,256):
+        print(i, end=" ")
+        print(chr(i),end=" ")
+        print(hex(i),end=" ")
+        print(bin(i),end=" ")
+        if  (i % 3 == 0):
+                print("  ")
+
